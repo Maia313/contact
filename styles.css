@@ -1,0 +1,129 @@
+html {
+    height: 100%;
+  }
+  body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(#000, #4e536f);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  a {
+    color: inherit; 
+    text-decoration: inherit; 
+    position: relative;
+    top: 20;
+    left:40;
+  }
+  
+  
+  #contact-list, #favourite-list {
+    max-width: 460px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .header {
+    max-width: 460px;
+    margin: 10px auto;
+    padding: 20px;
+  }
+  
+  .hidden {
+      display: none;
+  }
+  
+  #contact-details {
+    max-width: 460px;
+    height: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    color: #000;
+    border-radius: 3px;
+  }
+  
+  h4 {
+    margin:0;
+    margin-top: -20px;
+  }
+  
+  
+  input[type=text] {
+    min-width: 280px;
+    width: 300px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #3a3d52;
+    background: #3a3d52;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: absolute;
+
+  }
+  
+  
+  .search-button {
+    background-color: #3a3d52;
+    border-radius: 3px;
+    border-style: none;
+    float: right;
+    position: relative;
+    padding: 4px;
+  }
+  
+  .magnifier {
+    height: 32px;
+    width: 28px;
+    border-radius: 3px;
+  }
+
+  .clear {
+    clear: both;
+    height: 50px;
+  }
+  
+  .contacts-filter {
+    float: right;
+  }
+  
+  #contact-list .contact-name {
+    margin: 2px;
+    padding: 10px;
+    background: #3a3d52;
+    border-radius: 2px;
+  }
+  
+  #favourite-list .contact-name {
+    margin: 2px;
+    padding: 10px;
+    background: #3a3d52;
+    border-radius: 2px;
+  }
+  
+  #star {
+    margin-left: 120px;
+  }
+  #close-details {
+    display: block;
+    float: right;
+  }
+  
+  @media screen and (min-width: 390px) {
+    input[type=text] {
+      max-width: 380px;
+      width: 460px;
+    }
+    
+  }
+  
+  @media screen and (min-width: 600px) {
+    input[type=text] {
+      max-width: 600px;
+      width: 460px;
+    }
+  }
+  
